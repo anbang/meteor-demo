@@ -1,4 +1,4 @@
-let postsData=[
+/*let postsData=[
     {
         title:"这是title1",
         url:"http://zh.discovermeteor.com/chapters/templates/1",
@@ -14,8 +14,8 @@ let postsData=[
         url:"http://zh.discovermeteor.com/chapters/templates/3",
         domain:"www.baidu.com 这里无效"
     }
-];
+];*/
 
 Template.postList.helpers({
-    posts:postsData
+    posts:Posts.find()
 });
