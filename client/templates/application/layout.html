@@ -1,10 +1,11 @@
 <template name="layout">
     <div class="container">
-        <header class="navbar navbar-default" role="navigation">
+        <!--<header class="navbar navbar-default" role="navigation">
             <div class="navbar-header">
-                <a href="{{pathFor 'postList'}}" class="navbar-brand">测试的标题啊</a>
+                <a href="{{pathFor 'postList'}}" class="navbar-brand">{{pageTitle}}</a>
             </div>
-        </header>
+        </header>-->
+        {{> header}}
         <div id="main" class="row-fluid">
             {{> yield}}
         </div>
